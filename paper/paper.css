@@ -1,0 +1,30 @@
+@page { size: A4; }
+html { font-family: "TeX Gyre Termes", "Liberation Serif", "Times New Roman", serif; font-size: 11pt; line-height: 1.45; color: #111; }
+body { margin: 0; }
+h1 { font-size: 19pt; line-height: 1.25; margin: 0 0 10pt; text-align: left; font-weight: 700; }
+h2 { font-size: 14pt; margin: 0 0 8pt; padding-bottom: 3pt; border-bottom: 1px solid #999; break-before: page; }
+.titlepage h2 { break-before: auto; margin-top: 16pt; }
+h3 { font-size: 11.5pt; margin: 14pt 0 4pt; break-after: avoid; }
+p { margin: 0 0 7pt; text-align: justify; hyphens: auto; orphans: 3; widows: 3; }
+.author { font-size: 13pt; font-weight: 700; margin: 6pt 0 2pt; text-align: left; }
+.affil { font-size: 10pt; color: #444; margin: 0 0 1pt; text-align: left; }
+ul, ol { margin: 0 0 8pt; padding-left: 20pt; } li { margin-bottom: 2pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 4pt 0 6pt; break-inside: avoid; }
+th, td { border-top: 0.5pt solid #bbb; border-bottom: 0.5pt solid #bbb; padding: 3pt 5pt; text-align: left; vertical-align: top; }
+thead th { border-top: 1.2pt solid #111; border-bottom: 1pt solid #111; }
+tbody tr:last-child td { border-bottom: 1.2pt solid #111; }
+img { max-width: 100%; display: block; margin: 8pt auto 3pt; }
+.caption, .note { font-size: 9pt; color: #333; text-align: left; }
+.caption { margin-bottom: 12pt; }
+figure { margin: 0; break-inside: avoid; } figcaption { display: none; }
+.box { border: 0.8pt solid #2a78d6; background: #f2f7fd; padding: 6pt 12pt 2pt; margin-top: 14pt; break-inside: avoid; }
+.box p { margin-bottom: 4pt; }
+.refs p { text-align: left; padding-left: 18pt; text-indent: -18pt; margin-bottom: 6pt; font-size: 10pt; overflow-wrap: anywhere; }
+a { color: inherit; text-decoration: none; }
+.titlepage h1 { font-size: 16.5pt; margin-bottom: 6pt; }
+.titlepage p { font-size: 9.8pt; line-height: 1.38; margin-bottom: 5pt; }
+.titlepage .author { font-size: 12pt; }
+.titlepage .affil { font-size: 9pt; }
+.titlepage h2 { margin-top: 10pt; font-size: 12.5pt; }
+.titlepage .box { margin-top: 8pt; padding: 4pt 10pt 1pt; }
+.titlepage .box li { font-size: 9.5pt; line-height: 1.35; }

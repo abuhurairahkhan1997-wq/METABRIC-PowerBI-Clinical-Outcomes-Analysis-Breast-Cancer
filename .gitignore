@@ -1,0 +1,4 @@
+data/*.csv
+data/*.pkl
+figures/frame_*.png
+__pycache__/
